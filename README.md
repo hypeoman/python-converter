@@ -2,12 +2,14 @@
 
 ## Using the program
 
+This program is designed to convert length units, convertible lengths are shown below.
+
 Program Syntax: `python main.py <Input_Unit> <Output_Unit> <Input_Unit_Value>`
 Examples:
 `Input: python main.py m cm 1
 Output: 100.0`
 
-Program designations
+### Program supported units
 1. km : kilometer
 2. m : meter
 3. cm : centimeter
@@ -28,4 +30,4 @@ For normal use of the program, you need to create an alias in the terminal or co
 
 1. Сhange the converter.cmd file, instead of `/path/to/main.py` write your path to main.py file.
 2. After changing converter.cmd file, you must be place him in the folder located in the PATH variable, for example `C:\Windows\System32`.
-3. Use in CMD like : ``
+3. Use in CMD like : ` Input: converter cm m 100 Output: 1.0 ` 
